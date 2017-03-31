@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Notícias</title>
+	<link rel="stylesheet" type="text/css" href="css/cssnoticias.css">
+</head>
+<body>
+	<div id="container">
+		<div id="topo">
+			<h1>FUTICIAS</h1>
+		</div>
+		<div id="menu">
+			<nav>
+				<a href="home.html" class="btn">Home</a>
+				<a href="resultados.html" class="btn">Resultados</a>
+				<a href="tabela.html" class="btn">Tabela</a>
+				<a href="noticias.html" class="btn">Notícias</a>
+				<a href="formulario.html" class="btn">Cadastro</a>
+			</nav>
+		</div>
+		<div id="meio">
+			<h3> Novo jogador contratado pelo São Paulo!<br></h3>
+			<h4> Thomaz Santos é o novo meia do clube. </h4>
+			<fieldset id="jogadorsp">
+		<div id="meiomeio">
+			<h3> Cruzeiro negocia saída de Riascos<br></h3>
+			<h4> O clube está perto de um acordo com o jogador.<h4>
+			<fieldset id="cruzeiro">
+		</div>
+		</div>
+	<div id="rodape">
+		<span>Atividade de TPI - SITE</span>
+	</div>
+</body>
+</html>
