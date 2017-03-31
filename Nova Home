@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Home Futícias</title>
+	<link rel="stylesheet" type="text/css" href="css/cssfuti.css">
+</head>
+<body>
+	<div id="container">
+		<div id="topo">
+			<h1>FUTICIAS</h1>
+		</div>
+		<div id="menu">
+			<nav>
+				<a href="home.html" class="btn">Home</a>
+				<a href="resultados.html" class="btn">Resultados</a>
+				<a href="tabela.html" class="btn">Tabela</a>
+				<a href="noticias.html" class="btn">Notícias</a>
+				<a href="formulario.html" class="btn">Cadastro</a>
+			</nav>
+		</div>
+		<div id="meio">
+		</div>
+		<div id="rodape">
+			<span>Atividade de TPI - SITE</span>
+		</div>
+	</div>
+</body>
+</html>
