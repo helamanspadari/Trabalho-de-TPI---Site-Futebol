@@ -1,0 +1,101 @@
+.btn {
+  background: #1039e0;
+  background-image: -webkit-linear-gradient(top, #1039e0, #2bb3b8);
+  background-image: -moz-linear-gradient(top, #1039e0, #2bb3b8);
+  background-image: -ms-linear-gradient(top, #1039e0, #2bb3b8);
+  background-image: -o-linear-gradient(top, #1039e0, #2bb3b8);
+  background-image: linear-gradient(to bottom, #1039e0, #2bb3b8);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #e7f5f0;
+  font-size: 25px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #42d934);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #42d934);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #42d934);
+  background-image: -o-linear-gradient(top, #3cb0fd, #42d934);
+  background-image: linear-gradient(to bottom, #3cb0fd, #42d934);
+  text-decoration: none;
+}
+#container{
+  background-image: url(images/campo.jpg);
+  background-color: black;
+  margin: 0px;
+  max-width: 100%;
+  font-family: 'Showcard Gothic';
+  padding-top: 20px;
+  color: #FAFAD2;
+  text-align: center;
+}
+#titulo{
+  font-size: 55px;
+  padding-left: 20px;
+  float: top;
+}
+#menu{
+  background-image: url(images/campo.jpg);
+  max-width: 100%;
+  height: 85px;
+  float: top;
+}
+#meio{
+  width: 100%;
+  height: 750px;
+}
+#tabela{
+  background-color: #009ACD; 
+  border-radius: 100px;
+  height: 720px;
+  width: 1150px;
+  margin-left: 50px;
+}
+#paulista{
+  height: 600px;
+  padding-top: 0px;
+  margin-bottom: 20px;
+  border-radius: 0px;
+  width: 100px;
+  text-align: left;
+  margin-left: 50px;
+  background-image: url(images/tabelapaulista.jpg);
+  background-repeat: no-repeat;
+ }
+#carioca{
+  height: 600px;
+  padding-top: 0px;
+  margin-bottom: 0px;
+  border-radius: 0px;
+  width: 350px;
+  text-align: left;
+  margin-left: 350px;
+  background-image: url(images/tabelacarioca.jpg);
+  background-repeat: no-repeat;
+}
+#mineiro{
+   height: 600px;
+  padding-top: 0px;
+  margin-bottom: 0px;
+  border-radius: 0px;
+  width: 300px;
+  text-align: left;
+  margin-left: 350px;
+  background-image: url(images/tabelamineiro.jpg);
+  background-repeat: no-repeat;
+}
+#rodape{
+  float: bottom;
+  max-width: 100%;
+  height: 40px;
+  background-color: orange;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  padding-top: 5px;
+}

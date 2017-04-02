@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Formulario Futicias</title>
+	<link rel="stylesheet" type="text/css" href="css/csscadastro.css">
+</head>
+<body>
+	<div id="container">
+		<div id="topo">
+			<h1>FUTICIAS</h1>
+		</div>
+			<div id="menu">
+				<nav>
+				<a href="home.html" class="btn">Home</a>
+				<a href="resultados.html" class="btn">Resultados</a>
+				<a href="tabela.html" class="btn">Tabela</a>
+				<a href="noticias.html" class="btn">Notícias</a>
+				<a href="formulario.html" class="btn">Cadastro</a>
+			</nav>
+		</div>
+		<div id="meio">
+			<div id="formulario">
+				<form name="formulario" action="formulario.jsp" method="post">
+ 					<fieldset id="dados"><center>
+ 						<legend><h1>Formulario de Cadastro</h1></legend>
+ 							<p>
+ 								<label for="nome">----------------Nome: </label><input id="nome">
+ 							</p>		
+ 							<p>
+ 								<label for="sobrenome">---------Sobrenome: </label><input id="sobrenome">
+ 							</p>
+ 							<p>
+								<label>-Telefone/Celular: <input type="tel" placeholder="(xx) xxxx-xxxx" pattern="^\(?\d{2}\)\d{4}.*.?$"></label>
+							</p>
+			 				<p>
+								<label>---------------E-mail: <input type="email"></label>
+							</p>
+							<p>
+								<label>--Data de Nascimento: <input type="date" name="datanasc"></label>
+							</p>
+							<center>
+							<legend>----Gênero----</legend>
+							<table>
+								<tr>
+									<td>			
+										<p>
+											<input type="radio" name="genero">Masculino</input>
+										</p>
+									</td>
+									<td>
+										<p>
+											<input type="radio" name="genero">Feminino</input>
+										</p>
+									</td>
+									<td>
+										<p>
+											<input type="radio" name="genero">Não especificado</input>
+										</p>
+									</td>
+								</tr>
+							</table>
+							</center>
+							<p>
+								<label>---------------Senha: <input type="password" name="senha" placeholder="************"></label>
+							</p>
+							<p>
+								<label>-Confirmar Senha: <input type="password" name="confirmarsenha" placeholder="************"></label>
+							</p>
+							<p>
+								<button class="btn" type="button" onclick="alert('Obrigado, Cadastro realizado com sucesso!')">Cadastrar-se</button>
+							</p>
+							</center>
+ 					</fieldset>
+				</form>
+			</div>
+		</div>
+		
+		<div id="rodape">
+			<span>Atividade de TPI - SITE</span>
+		</div>
+	</div>
+</body>
+</html>
