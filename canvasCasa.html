@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML 5 CANVAS</title>
+</head>
+<body>
+	<canvas id="meu_canvas" width="550" height="500"></canvas>
+	<script>
+		//canvas e contexto
+		var canvas = document.getElementById('meu_canvas');
+		var context = canvas.getContext('2d');
+
+		//ceu
+			context.fillStyle = '#FFF';
+			context.lineWidth = 2;
+			context.fillRect(0,0,500,310);
+
+		
+		//arvore
+			//tronco
+			context.fillStyle = 'brown';
+			context.fillRect(430,183,30,120);
+		//cores e espessura da linha
+			context.fillStyle = 'green';
+			context.strokeStyle = 'black';
+			context.lineWidth = 2;
+
+			//novo path
+			context.beginPath();
+			//1 folha
+			context.arc(425,160,45,0,2*Math.PI);
+			//2 folha
+			context.arc(460,160,45,0,2*Math.PI);
+			//3 folha
+			context.arc(440,130,45,0,2*Math.PI);
+
+		//preenchimento
+		context.fill();
+		//contorno
+		context.stroke();
+
+		//iniciar o caminho
+		context.beginPath();
+
+		//configurar linha
+		context.lineWidth = 5;
+		context.strokeStyle = 'black';
+
+		//estrutura da casa
+			//desenhar casar
+				context.moveTo(30,170); // ponto inicial
+				context.lineTo(95,50);  // triangulo do telhado
+				context.lineTo(165,170);// triangulo
+				context.lineTo(165,300);// quadrado da base
+				context.lineTo(30,300); // base
+				context.lineTo(32,165); // quadrado da base
+				context.lineTo(380,165);// fechando telhado
+				context.lineTo(330,45); // levantando telhado
+				context.lineTo(95,48);  // fechando parte grande telhado
+			//base da casa
+				context.moveTo(380,165);// ponto inicial parte de tras da casa
+				context.lineTo(380,301);// base retangulo da casa
+				context.lineTo(160,300);// fechano base retangulo da casa
+
+			//riscos do telhado
+				context.moveTo(343,165);
+				context.lineTo(290,45);
+				context.moveTo(302,165);
+				context.lineTo(240,45);
+				context.moveTo(258,165);
+				context.lineTo(190,45);
+				context.moveTo(210,165);
+				context.lineTo(140,45);
+
+		//traçar as linhas do caminho
+		context.stroke();
+
+
+
+		//janelas
+			//desenhando o retangulo
+			context.fillStyle = 'red';
+			context.fillRect(200,200,60,60);
+			context.fillStyle = 'red';
+			context.fillRect(280,200,60	,60);
+
+		//porta
+			context.fillStyle = 'yellow';
+			context.lineWidth = 2;
+			context.fillRect(67,218,60,80);
+		
+		//chamine
+			context.fillStyle = 'yellow';
+			context.lineWidth = 2;
+			context.fillRect(255,0,60,43);
+		
+		//chao
+			context.fillStyle = 'green';
+			context.lineWidth = 2;
+			context.fillRect(0,303,500,90);
+
+
+	</script>
+</body>
+</html>
